@@ -8,7 +8,7 @@ import { Election, Vote, getElectionStatus } from '@/types/models';
 import { getVotesByUser, getElectionById } from '@/lib/localStorage';
 
 interface VoteWithElection extends Vote {
-  election?: Election;
+  election?: Election | null;
 }
 
 export default function ProfilePage() {
