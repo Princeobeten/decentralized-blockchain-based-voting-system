@@ -1,11 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      {/* <Navbar /> */}
       
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
